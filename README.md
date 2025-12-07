@@ -2,16 +2,16 @@
 
 This project detects **Distributed Denial of Service (DDoS) attacks** using machine learning algorithms. By analyzing network traffic patterns, the system can distinguish between **legitimate** and **malicious** traffic, providing proactive defense against DDoS attacks.
 
----
+--- 
 
 ## 🛠️ Technologies & Tools
-- Python 3  
-- scikit-learn (for ML models)  
-- pandas, numpy (for data processing)  
+- Python 3
+- scikit-learn (for ML models)
+- pandas, numpy (for data processing)
 
 ---
-## 📂 Project Structure
 
+## 📂 Project Structure
 ```text
 ddos-detection-ml/
 ├── README.md
@@ -23,32 +23,34 @@ ddos-detection-ml/
 ├── trained_logistic_model_ip.pkl
 └── trained_scaler_ip.pkl
 
-
 ---
 
 ## 🚀 Getting Started
 
-### Clone the repository
-```bash
+Clone the repository:
 git clone https://github.com/Mehdi-Ben-Hamou/ddos-detection-ml.git
 cd ddos-detection-ml
 
-### Train the model
-```bash
+Train the model:
 python train_detection_model.py
 
-### Run detection
-```bash
+Run detection:
 python run_detection.py
 
-### 📊 Dataset
-train_icmp_flood_ip_dataset.csv: Training data for ICMP flood detection
-test_icmp_flood_ip_dataset.csv: Test data for evaluation
+---
 
-###💾 Model Files
-trained_logistic_model_ip.pkl: Pre-trained logistic regression model
-trained_scaler_ip.pkl: Scaler used for data normalization
+## 📊 Dataset
+- train_icmp_flood_ip_dataset.csv: Training data for ICMP flood detection
+- test_icmp_flood_ip_dataset.csv: Test data for evaluation
 
-###🔗 Notes
-The system currently focuses on ICMP flood attacks.
-Additional attack types can be added by extending preprocessing and training scripts.
+---
+
+## 💾 Model Files
+- trained_logistic_model_ip.pkl: Pre-trained logistic regression model
+- trained_scaler_ip.pkl: Scaler used for data normalization
+
+---
+
+## 🔗 Notes
+- The system currently focuses on ICMP flood attacks.
+- Additional attack types can be added by extending preprocessing and training scripts.
