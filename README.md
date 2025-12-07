@@ -10,9 +10,10 @@ This project detects **Distributed Denial of Service (DDoS) attacks** using mach
 - pandas, numpy (for data processing)  
 
 ---
-
 ## 📂 Project Structure
-''' ddos-detection-ml/
+
+```text
+ddos-detection-ml/
 ├── README.md
 ├── icmp_flood_ip_dataset.py
 ├── run_detection.py
@@ -20,4 +21,4 @@ This project detects **Distributed Denial of Service (DDoS) attacks** using mach
 ├── test_icmp_flood_ip_dataset.csv
 ├── train_icmp_flood_ip_dataset.csv
 ├── trained_logistic_model_ip.pkl
-└── trained_scaler_ip.pkl '''
+└── trained_scaler_ip.pkl
