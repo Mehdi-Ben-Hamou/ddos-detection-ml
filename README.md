@@ -40,13 +40,13 @@ python train_detection_model.py
 python run_detection.py
 ```
 ## 📊 Dataset
-train_icmp_flood_ip_dataset.csv: Training data for ICMP flood detection
-test_icmp_flood_ip_dataset.csv: Test data for evaluation
+- train_icmp_flood_ip_dataset.csv: Training data for ICMP flood detection
+- test_icmp_flood_ip_dataset.csv: Test data for evaluation
 
 ## 💾 Model Files
-trained_logistic_model_ip.pkl: Pre-trained logistic regression model
-trained_scaler_ip.pkl: Scaler used for data normalization
+- trained_logistic_model_ip.pkl: Pre-trained logistic regression model
+- trained_scaler_ip.pkl: Scaler used for data normalization
 
 ## 🔗 Notes
-The system currently focuses on ICMP flood attacks.
-Additional attack types can be added by extending preprocessing and training scripts.
+- The system currently focuses on ICMP flood attacks.
+- Additional attack types can be added by extending preprocessing and training scripts.
