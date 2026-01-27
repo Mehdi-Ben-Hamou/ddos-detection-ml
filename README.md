@@ -4,14 +4,14 @@ This project detects **Distributed Denial of Service (DDoS) attacks** using mach
 
 --- 
 
-## 🛠️ Technologies & Tools
+## Technologies & Tools
 - Python 3
 - scikit-learn (for ML models)
 - pandas, numpy (for data processing)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```text
 ddos-detection-ml/
 ├── README.md
@@ -25,7 +25,7 @@ ddos-detection-ml/
 ```
 ---
 
-## 🚀 Getting Started
+## Getting Started
 ### Clone the repository
 ```bash
 git clone https://github.com/Mehdi-Ben-Hamou/ddos-detection-ml.git
@@ -39,14 +39,14 @@ python train_detection_model.py
 ```bash
 python run_detection.py
 ```
-## 📊 Dataset
+## Dataset
 - train_icmp_flood_ip_dataset.csv: Training data for ICMP flood detection
 - test_icmp_flood_ip_dataset.csv: Test data for evaluation
 
-## 💾 Model Files
+## Model Files
 - trained_logistic_model_ip.pkl: Pre-trained logistic regression model
 - trained_scaler_ip.pkl: Scaler used for data normalization
 
-## 🔗 Notes
+## Notes
 - The system currently focuses on ICMP flood attacks.
 - Additional attack types can be added by extending preprocessing and training scripts.
